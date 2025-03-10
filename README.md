@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# TGR Compliance Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a personal tool created to help organize **TGR compliance**. The application displays a weekly compliance schedule in the form of interactive cards that resemble file folder outlines. Each card represents a week from **July 29, 2024, to July 29, 2025**, with the ability to easily view and track compliance data over time.
 
-## Available Scripts
+## Project Structure
 
-In the project directory, you can run:
+- **LandingPage.tsx**: The main page that displays a series of weekly cards. Each card represents a week with its start and end dates.
+- **App.tsx**: The root component that renders the `LandingPage` component.
+- **.....css**: Styling for the application, including the file folder-style cards and general layout.
 
-### `npm start`
+## Features So Far
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Weekly Compliance Schedule**: Displays weeks in the format **Sunday-Saturday** up until January 17, 2025, after which it switches to **Monday-Sunday**.
+- **File Folder-Style Cards**: Each week is represented as a clickable card styled to look like a file folder with black borders and the **Courier Prime** font.
+- **Responsive Layout**: The weeks are displayed in a flexible grid, adjusting the number of columns based on the screen size.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Font
 
-### `npm test`
+- **Courier Prime** is used for the text on the cards, providing a typewriter-style font.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Enhancements
 
-### `npm run build`
+- This project is a work in progress, and more features will be added to track compliance data and organize the weeks more efficiently.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Purpose
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is for personal use to organize compliance tracking for TGR and is meant to provide an easy-to-use interface to see weekly data at a glance.
