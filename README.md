@@ -14,10 +14,6 @@ This project is a personal tool created to help organize **TGR compliance**. The
 - **File Folder-Style Cards**: Each week is represented as a clickable card styled to look like a file folder with black borders and the **Courier Prime** font.
 - **Responsive Layout**: The weeks are displayed in a flexible grid, adjusting the number of columns based on the screen size.
 
-## Font
-
-- **Courier Prime** is used for the text on the cards, providing a typewriter-style font.
-
 ## Future Enhancements
 
 - This project is a work in progress, and more features will be added to track compliance data and organize the weeks more efficiently.
