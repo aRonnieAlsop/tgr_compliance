@@ -14,13 +14,13 @@ const LandingPage = () => {
     const weeks: Week[] = generateWeeks();
     return (
         <div>
-            <h1>Weekly Compliance Schedule</h1>
+            <h1 className="file-cabinet">Weekly Compliance Schedule</h1>
             <div className="weeks-container">
                 {weeks.map((week, index) => (
                     <div className="week-card" key={index}>
                         <h3>{week.weekNumber}</h3>
                         <p>{week.startDate} - {week.endDate}</p>
-                        <button onClick={() => alert(`Week ${index +1} clicked!`)}>Add Data</button>
+                        <button onClick={() => alert(`Week ${index +1} clicked!`)}>Open</button>
                         </div>
                 ))}
             </div>
